@@ -1,24 +1,21 @@
-## Hi 👋, my name is Vivek
+## Hi 👋, my name is Johnny
 
-<img align="right" src="https://github.com/vivekweb2013/vivekweb2013/blob/main/developer.gif" alt="Hola Coders" width="500" height="350"/> 
+<iframe align="right" src="https://giphy.com/embed/Y4ak9Ki2GZCbJxAnJD" width="480" height="302" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/Y4ak9Ki2GZCbJxAnJD">via GIPHY</a></p>
 
-##### I am a full stack developer with 7+ years of industry experience building web applications.
+##### I am a mobile developer with 7+ years of industry experience building mobile applications.
 
-- 🔭 I’m currently working on [GitNoter](https://github.com/vivekweb2013/gitnoter).
-- 🌱 I’m currently learning **RegEx**
-- 🤔 I’m looking for help with [GitNoter Issues](https://github.com/vivekweb2013/gitnoter/issues)
-- 💬 Ask me about **Golang, ReactJS, Docker, Kubernetes, Helm**
-- 📫 How to reach me: vivekweb2013@gmail.com
+- 🔭 I’m currently working on [Mirrorrim](https://github.com/jhonny-me/mirrorrim).
+- 🌱 I’m currently learning **Flutter**
+- 💬 Ask me about **Swift, Shell, Python, JavaScript**
+- 📫 How to reach me: guqiang180@gmail.com
 - 😄 Pronouns: He/His
-- ⚡ Fun fact: I paint at times!
+- 👨‍💻 Code serves!
 
 ##### Online Presence
-[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='40'>](https://github.com/vivekweb2013)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/dev-dot-to.svg' alt='dev' height='40'>](https://dev.to/vivekweb2013)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg' alt='twitter' height='40'>](https://twitter.com/vivekweb2013)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/stackoverflow.svg' alt='stackoverflow' height='40'>](https://stackoverflow.com/users/814548)  
+[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='40'>](https://github.com/jhonny-me)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg' alt='twitter' height='40'>](https://twitter.com/LockerJhonny)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/stackoverflow.svg' alt='stackoverflow' height='40'>](https://stackoverflow.com/users/4786328)  
 ---
 <div>
-  <a href="https://github.com/vivekweb2013">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=vivekweb2013&show_icons=true&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vivekweb2013&layout=compact&langs_count=6"/>
+  <a href="https://github.com/jhonny-me">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=jhonny-me&show_icons=true&include_all_commits=true&count_private=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jhonny-me&layout=compact&langs_count=6"/>
 </div>
-
-![Profile views](https://gpvc.arturio.dev/vivekweb2013)  
