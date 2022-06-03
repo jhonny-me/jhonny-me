@@ -1,6 +1,6 @@
 ## Hi 👋, my name is Johnny
 
-<iframe align="right" src="https://giphy.com/embed/Y4ak9Ki2GZCbJxAnJD" width="480" height="302" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/Y4ak9Ki2GZCbJxAnJD">via GIPHY</a></p>
+<img align="right" src="https://github.com/jhonny-me/jhonny-me/blob/main/developer.gif" alt="Hola Coders" width="480" height="302"/>
 
 ##### I am a mobile developer with 7+ years of industry experience building mobile applications.
 
