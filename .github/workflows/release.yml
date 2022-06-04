@@ -1,0 +1,47 @@
+name: Release
+
+on:
+  release:
+    types: [created]
+
+jobs:
+  convert_via_pandoc:
+    runs-on: ubuntu-18.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Pandoc convertion html
+        uses: docker://pandoc/core:2.18-ubuntu
+        with:
+          args: >-
+            --standalone
+            --css resume/resume.css
+            --output resume.html
+            resume/resume.md
+      - name: Pandoc convertion docx
+        uses: docker://pandoc/core:2.18-ubuntu
+        with:
+          args: >-
+            --reference-doc resume/resume-reference.docx
+            --output resume.docx
+            resume/resume.md
+      - name: Install wkthtmltopdf
+        run: |
+          sudo apt-get install -y xfonts-base xfonts-75dpi
+          wget https://github.com/wkhtmltopdf/packaging/releases/download/0.12.6-1/wkhtmltox_0.12.6-1.bionic_amd64.deb
+          sudo dpkg -i wkhtmltox_0.12.6-1.bionic_amd64.deb
+      - name: wkthtmltopdf generate pdf
+        run: wkthtmltopdf resume.html resume.pdf
+      
+      - name: Archive Zip
+        run: zip --junk-paths ${{ runner.temp }}/resume.zip resume.pdf resume.docx resume.html
+
+      - name: Attach ZIP to release
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.ACTION_TOKEN }}
+        with:
+          upload_url: ${{ github.event.release.upload_url }}
+          asset_path: ${{ runner.temp }}/resume.zip
+          asset_name: resume.zip
+          asset_content_type: application/zip
