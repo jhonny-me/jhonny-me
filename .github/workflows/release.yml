@@ -34,7 +34,7 @@ jobs:
         run: wkhtmltopdf --enable-local-file-access resume.html resume.pdf
       
       - name: Archive Zip
-        run: zip --junk-paths ${{ runner.temp }}/resume.zip resume.pdf resume.docx resume.html
+        run: zip ${{ runner.temp }}/resume.zip resume.pdf resume.docx resume.html resume/resume.css
 
       - name: Attach ZIP to release
         uses: actions/upload-release-asset@v1
