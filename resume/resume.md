@@ -30,6 +30,13 @@ Experience
 Projects
 --------
 
+**Zara App** (Swift)
+
+- Work with SwiftUI and Combine
+- Work with global team in different timezones
+- Very standard Jira workflow
+- High Unit test coverage with the power of DependencyInjection
+
 **Confirmed App** (Swift)
 
 - Built with RxSwift and Coordinator pattern from scratch
