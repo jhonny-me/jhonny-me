@@ -9,7 +9,7 @@ Skills
 ------
 **Programming:** Swift, JavaScript, Dart, HTML/CSS, Objective-C, Shell
 
-**Tools&Methonolgy:** Git, Scrum, Jira, Slack
+**Tools&Methonolgy:** Git, Scrum, Jira, Slack, Prompt Engineering
 
 
 Experience
@@ -36,6 +36,8 @@ Projects
 - Work with global team in different timezones
 - Very standard Jira workflow
 - High Unit test coverage with the power of DependencyInjection
+- Used XCTest-Gherkin for a better UITest readability and abandoned manual QA for features
+- Used LocaStudio for translation strings management
 
 **Confirmed App** (Swift)
 
