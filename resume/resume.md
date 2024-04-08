@@ -30,6 +30,13 @@ Experience
 Projects
 --------
 
+**Cybex App** (Flutter + Swift)
+
+- Build the core functionality using Cross Platform technology - Flutter
+- Merged 2 native applications into one
+- Applied the standard multilingual POEditor solution
+- Setup the CI/CD with Github Action through multiple repositories
+
 **Zara App** (Swift)
 
 - Work with SwiftUI and Combine
